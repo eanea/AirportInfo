@@ -5,4 +5,5 @@ ________________________________________________________________________________
 
 ### Запуск
 mvn package
+
 spark-submit --class SparkAirportInfo --master yarn-client --num-executors 3 sparkairport-1.0-SNAPSHOT.jar
